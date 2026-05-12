@@ -1,0 +1,4 @@
+.close-btn:hover path {
+  fill: var(--color-accent);
+  stroke: var(--color-primary);
+}

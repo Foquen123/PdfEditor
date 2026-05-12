@@ -8,17 +8,41 @@
     "start": "next start"
   },
   "dependencies": {
+    "@dnd-kit/react": "^0.4.0",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "@react-pdf/renderer": "^4.5.1",
+    "@tanstack/react-virtual": "^3.13.24",
+    "better-auth": "^1.6.10",
+    "dotenv": "^17.4.2",
     "next": "16.2.4",
+    "pdf-lib": "^1.17.1",
+    "pg": "^8.20.0",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-dropzone": "^15.0.0",
+    "react-hot-toast": "^2.6.0",
+    "react-infinite-scroll-component": "^7.2.0",
+    "react-pdf": "^10.4.1",
+    "react-responsive": "^10.0.1",
+    "react-virtualized": "^9.22.6",
+    "react-virtualized-auto-sizer": "^2.0.3",
+    "uuid": "^14.0.0",
+    "zustand": "^5.0.13"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/react-virtualized": "^9.22.3",
     "babel-plugin-react-compiler": "1.0.0",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.4",
+    "prisma": "^7.8.0",
     "tailwindcss": "^4",
+    "tsx": "^4.21.0",
     "typescript": "^5"
   }
 }
